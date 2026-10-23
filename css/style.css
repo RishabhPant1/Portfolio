@@ -1,0 +1,252 @@
+/* =========================
+   Global Styles
+========================= */
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+/* =========================
+   Hero Section
+========================= */
+
+#hero{
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-image{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 5px solid #0d6efd;
+}
+
+/* =========================
+   About Section
+========================= */
+
+#about{
+    background-color: #f8f9fa;
+}
+
+#about h2{
+    color: #212529;
+}
+
+#about p{
+    color: #6c757d;
+    line-height: 1.8;
+}
+
+#about img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+#about .card{
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+#about .card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+#about .card h5{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   Skills Section
+========================= */
+
+#skills{
+    background-color: #ffffff;
+}
+
+#skills h2{
+    color: #212529;
+}
+
+#skills p{
+    color: #6c757d;
+}
+
+#skills .card{
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+#skills .card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+#skills h4{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#skills .bi{
+    color: #0d6efd;
+    margin-right: 8px;
+}
+
+#skills .card p{
+    margin-bottom: 12px;
+}
+
+#skills .card-body{
+    padding: 2rem;
+}
+
+/* =========================
+   Projects Section
+========================= */
+
+#projects{
+    background-color: #f8f9fa;
+}
+
+#projects .card{
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+#projects .card-img-top{
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+}  
+
+.project-image{
+    padding: 15px 15px 0;
+}
+
+.project-image img{
+    border-radius: 12px;
+}
+
+#projects .card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+#projects .card:hover .card-img-top{
+    transform: scale(1.05);
+}
+
+#projects .card-body{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+
+#projects .card-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #212529;
+    margin-bottom: 12px;
+}
+
+#projects .card-text{
+    color: #6c757d;
+    line-height: 1.8;
+    margin-bottom: 1.4rem;
+}
+
+#projects .badge{
+    margin-right: 6px;
+    margin-bottom: 8px;
+    padding: 7px 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+#projects .card-footer{
+    display: flex;
+    gap: 10px;
+}
+
+#projects .card-footer .btn{
+    flex: 1;
+}
+
+#projects .btn{
+    border-radius: 10px;
+    padding: 10px 0;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+#projects .btn i{
+    margin-right: 6px;
+}
+
+#projects .btn:hover{
+    transform: translateY(-2px);
+}
+
+#projects .card-footer{
+    margin-top: auto;
+}
+
+#projects .tech-stack{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: auto;
+}
+
+/* =========================
+   Education Section
+========================= */
+
+#education{
+    background-color: #ffffff;
+}
+
+#education .card{
+    border-radius: 15px;
+    transition: all 0.3s ease;
+}
+
+#education .card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+}
+
+#education h3{
+    color: #212529;
+}
+
+#education p{
+    color: #6c757d;
+}
+
+#education .btn{
+    border-radius: 10px;
+    padding: 10px 22px;
+    font-weight: 500;
+}
+
+#education .btn i{
+    margin-right: 6px;
+}
